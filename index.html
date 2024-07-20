@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-        window.onload = function redirectToPost() {
+        window.onload = function() {
+            // Create a form element
             var form = document.createElement("form");
             form.method = "POST";
-            form.action = "https://06450pp3d2c0p5y8pfbuwaga71ds1mpb.oastify.com"; // Target URL
+            form.action = "https://new-website.com"; // Replace with your target URL
 
-            // Add any necessary hidden fields
+            // Optionally, add any necessary hidden fields
             var hiddenField = document.createElement("input");
             hiddenField.type = "hidden";
             hiddenField.name = "key";
             hiddenField.value = "value";
             form.appendChild(hiddenField);
 
+            // Append the form to the body and submit it
             document.body.appendChild(form);
             form.submit();
         };
     </script>
 </head>
 <body>
-    If you are not redirected automatically, follow this <a href="https://06450pp3d2c0p5y8pfbuwaga71ds1mpb.oastify.com">link</a>.
+    Redirecting... If you are not redirected automatically, follow this <a href="https://new-website.com">link</a>.
 </body>
 </html>
